@@ -162,6 +162,7 @@ def main():
             print(df.head())
             break
         print("-"*70)        
+	print ("\nCalling the Time Status Function")
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
