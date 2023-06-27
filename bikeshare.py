@@ -164,6 +164,7 @@ def main():
         print("-"*70)        
 	print ("\nCalling the Time Status Function")
         time_stats(df)
+	print ("\nCalling the Station Status Function")
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
