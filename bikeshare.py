@@ -163,6 +163,7 @@ def main():
             break
         print("-"*70)        
         time_stats(df)
+        print ("\nCalling the Station Status Function")
         station_stats(df)
         print ("\nCalling the Trip Duration Status Function")
         trip_duration_stats(df)
